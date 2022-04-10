@@ -22,6 +22,8 @@ find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
 "msg/ImageCamInfo.msg"
+"msg/CameraState.msg"
+"srv/CameraParams.srv"
 DEPENDENCIES sensor_msgs
 )
 
